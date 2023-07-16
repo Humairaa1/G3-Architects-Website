@@ -95,6 +95,28 @@ main{
     padding-right: 70px;
 }
 
+/* Facts section styles */
+.facts-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.all-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    
+}
+.cards{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+height: 200px;
+width: 200px;
+padding-top: 40px;
+}
+
 /* media responsiv */
 /* For Mobile or small media device */
 @media screen and (max-width:576px) {
@@ -102,7 +124,9 @@ main{
         padding: 20px;
     }
     nav , 
-    .quick-list-container{
+    .quick-list-container,
+    .all-cards
+    {
         flex-direction: column;
     }
     .img-container{
