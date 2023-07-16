@@ -70,9 +70,8 @@ ul a{
 
 /* Main section styles */
 main{
-    max-width: 1440px;
-    /* margin: 0 auto; */
-    padding: 50px 230px;
+    max-width: 1000px;
+    margin: 50px auto;
 }
 
 /* Quick List Styles */
@@ -92,7 +91,8 @@ main{
     border-radius: 10px;
 }
 .quick-list-content{
-    margin-left: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 /* media responsiv */
@@ -108,8 +108,10 @@ main{
     .img-container{
         grid-template-columns: 1fr;
     }
-    main{
-        padding: 20px;
+
+    .quick-list-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
 }
@@ -125,8 +127,10 @@ main{
     .img-container{
         grid-template-columns: 1fr;
     }
-    main{
-        padding: 20px;
+    .quick-list-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
+    
 }
 
